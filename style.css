@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*PHOTOS*/
+.img-1 {background-image: url('I:\projekty\zabawy\flex-karteczki\20170507_222141.jpg');}
+.img-2 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-3 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-4 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-5 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-6 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-7 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-8 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-9 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-10 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-11 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+.img-12 {background-image: url('C:\Users\Volf\Desktop\yellow cards\');}
+
+/*CODE*/
+.element {
+	height: 90px;
+	margin: 5px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+}
+.inside-container, .flex-column, .flex-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-1 {
+	flex: 1;
+}
+body { 
+	background-color: #131212;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+.element-big {
+	height: 180px;
+}
+body:hover .element {
+	opacity: 0.3;
+}
+body .element:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
